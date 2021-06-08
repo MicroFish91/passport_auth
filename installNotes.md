@@ -36,7 +36,7 @@
     - setup associations - inside models folder
     - modify migration to reflect foreign key (REFERENCES) 
     - run migration (sequelize db:migrate)
-    - 
+
 
 - Passport (Authentication)
     - Pre-req: Wire up a login form to submit username and pw data... then
@@ -58,7 +58,3 @@
             - mkdir auth, cd auth, code index.js
             - checks req.isAuthenticated to see whether or not to allow request to access route
         - Import this auth function and add it as middleware to routes you want to protect
-
-        
-.env => root
-    DB_PASSWORD=""
